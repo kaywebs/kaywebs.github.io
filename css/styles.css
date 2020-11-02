@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
 #BIGRACC {
     text-align: center;
     vertical-align: middle;
@@ -13,4 +20,58 @@ body {
 html,body {
     height: 100%;
     overflow-y: hidden;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #212121;
+}
+
+.innerheader {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo h1 {
+    color: #B1D7FF;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 32px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a :last-child {
+    padding-right: 0px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
 }
