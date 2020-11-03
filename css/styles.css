@@ -85,3 +85,7 @@ html,body {
     vertical-align: middle;
     height: 100%;
 }
+
+.emotes {
+    padding: 0px 10px;
+}
