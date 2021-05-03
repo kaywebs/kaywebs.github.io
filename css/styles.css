@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+div#preload {
+    display: none;
+}
+
 #BIGRACC {
     text-align: center;
     vertical-align: middle;
