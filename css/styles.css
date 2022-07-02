@@ -68,6 +68,25 @@ html,body {
     font-size: 32px;
 }
 
+.logo h2 {
+    color: #ffffff;
+    height: 60%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+}
+
+.logo h3 {
+    color: #ffffff;
+    height: 60%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
 .navigation {
     float: right;
     height: 100%;
@@ -91,7 +110,7 @@ html,body {
 }
 
 .emotes {
-    padding: 0px 10px;
+    padding: 10px 10px;
 }
 
 #leftCol {
