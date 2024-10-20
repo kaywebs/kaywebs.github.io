@@ -131,3 +131,40 @@ html,body {
     padding: 5px;
 }
 
+/* Hide the hamburger menu by default */
+.hamburger-menu {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px; /* Adjust as needed */
+    top: 5px; /* Adjust as needed */
+}
+
+/* Hide the checkbox */
+.menu-toggle {
+    display: none;
+}
+
+/* Show the hamburger menu and hide social buttons on small screens */
+@media (max-width: 800px) {
+    .navigation {
+        display: none;
+        flex-direction: column; /* Make the social icons go vertical */
+        padding-top: 1rem; /* Add some space at the top */
+    }
+    .hamburger-menu {
+        display: block;
+        color: white;
+    }
+    /* Show the social buttons when the checkbox is checked */
+    .menu-toggle:checked + .hamburger-menu + .navigation {
+        display: flex;
+        flex-direction: column; /* Ensure the social icons are vertical */
+    }
+    /* Make the social buttons twice as big */
+    .navigation li img {
+        width: 64px; /* Double the original width */
+        height: 64px; /* Double the original height */
+    }
+}
